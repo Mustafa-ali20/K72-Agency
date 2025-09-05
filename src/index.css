@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: L300;
+  src: url(/Fonts/Lausanne-300.ttf);
+}
+
+@font-face {
+  font-family: L500;
+  src: url(/Fonts/Lausanne-500.ttf);
+}
+
+body{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* Large screen marquee animations - your existing code */
+/* Existing img1 marquee animations */
+.nameMarquee {
+  animation: marqueeLeft 20s linear infinite;
+}
+
+.professionMarquee {
+  animation: marqueeRight 25s linear infinite;
+}
+
+/* NEW: img2 marquee animations - identical to img1 */
+.nameMarquee2 {
+  animation: marqueeLeft 20s linear infinite;
+}
+
+.professionMarquee2 {
+  animation: marqueeRight 25s linear infinite;
+}
+
+/* Existing keyframes - unchanged */
+@keyframes marqueeLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes marqueeRight {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+/* Small and medium screen marquee animations */
+@media (max-width: 1023px) {
+  .smallNameMarquee {
+    animation: smallMarqueeLeft 20s linear infinite;
+    will-change: transform;
+  }
+
+  .smallProfessionMarquee {
+    animation: smallMarqueeRight 25s linear infinite;
+    will-change: transform;
+  }
+
+  /* Second image marquee animations - same behavior */
+  .smallNameMarquee2 {
+    animation: smallMarqueeLeft 20s linear infinite;
+    will-change: transform;
+  }
+
+  .smallProfessionMarquee2 {
+    animation: smallMarqueeRight 25s linear infinite;
+    will-change: transform;
+  }
+
+  @keyframes smallMarqueeLeft {
+    0% {
+      transform: translateX(80%);
+    }
+    100% {
+      transform: translateX(-80%);
+    }
+  }
+
+  @keyframes smallMarqueeRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
