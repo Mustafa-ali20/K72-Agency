@@ -306,7 +306,7 @@ export default function MenuButton({ onClick, currentPage, isMenuOpen }) {
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="h-11 w-54 md:h-14 md:w-74 lg:h-13 lg:w-74 flex flex-col justify-between bg-black relative pt-5 pr-7 overflow-hidden origin-top"
+      className="h-11 w-54 md:h-14 md:w-74 lg:h-13 lg:w-74 flex flex-col justify-center items-end gap-1 bg-black relative pr-7 overflow-hidden origin-top"
     >
       {/* Sliding color layer */}
       <div
@@ -315,13 +315,16 @@ export default function MenuButton({ onClick, currentPage, isMenuOpen }) {
         style={{ transform: "translateY(-100%)" }}
       />
 
-      <div className="flex flex-col items-end gap-1 relative z-10">
-        {/* Long line */}
-        <div ref={longLineRef} className="w-15 h-[1px] bg-white" />
+      <div
+          ref={longLineRef}
+          className="w-15 h-[1.1px] bg-white relative z-10"
+        />
 
         {/* Short line */}
-        <div ref={shortLineRef} className="w-7 h-[1px] bg-white" />
-      </div>
+        <div
+          ref={shortLineRef}
+          className="w-7 h-[1.1px] bg-white relative z-10"
+        />
 
     </button>
   );
