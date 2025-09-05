@@ -89,7 +89,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work1.jpg"
+              src="/Images/work/work1.jpg"
               alt="Project 1"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -102,7 +102,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work2.jpg"
+              src="/Images/work/work2.jpg"
               alt="Project 2"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -117,7 +117,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work3.jpg"
+              src="/Images/work/work3.jpg"
               alt="Project 3"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -130,7 +130,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work4.jpg"
+              src="/Images/work/work4.jpg"
               alt="Project 4"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -145,7 +145,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work5.jpg"
+              src="/Images/work/work5.jpg"
               alt="Project 5"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -158,7 +158,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work6.jpg"
+              src="/Images/work/work6.jpg"
               alt="Project 6"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -173,7 +173,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work7.jpg"
+              src="/Images/work/work7.jpg"
               alt="Project 7"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -186,7 +186,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work8.jpg"
+              src="/Images/work/work8.jpg"
               alt="Project 8"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -201,7 +201,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work9.jpg"
+              src="/Images/work/work9.jpg"
               alt="Project 9"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -214,7 +214,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-300 object-cover w-full h-full"
-              src="public/Images/work/work10.jpg"
+              src="/Images/work/work10.jpg"
               alt="Project 10"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -229,7 +229,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work11.jpg"
+              src="/Images/work/work11.jpg"
               alt="Project 11"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
@@ -242,7 +242,7 @@ function ProjectsCards(props) {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full relative overflow-hidden transition-all duration-300 ease-in-out hover:rounded-[2.5rem] group">
             <img
               className="group-hover:scale-105 transition-all duration-300 object-center object-cover w-full h-full"
-              src="public/Images/work/work12.jpg"
+              src="/Images/work/work12.jpg"
               alt="Project 12"
             />
             <div className="h-full w-full absolute top-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 ">
